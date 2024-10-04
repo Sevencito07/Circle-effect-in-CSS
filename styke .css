@@ -1,0 +1,22 @@
+
+@keyframes loading {
+    0% {
+      transform: rotate(0deg);
+    }
+  
+    100% {
+      transform: rotate(360deg);
+    }
+  }
+  
+ 
+  
+  .loading {
+    border: 6px dotted rgb(173, 186, 243);
+    border-radius: 100%;
+    width: 35rem;
+    height: 50rem;
+    animation: loading 2s infinite linear;
+    position: absolute;
+  }
+  
